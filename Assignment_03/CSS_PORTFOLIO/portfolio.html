@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya Singh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+      <div class="avatar-wrap">
+        <img class="avatar" src="riya.jpeg" alt="Riya Singh" />
+      </div>
+      <h1>Riya Singh</h1>
+      <p>Machine Learning Research Intern · Android Developer · CS Undergrad</p>
+      <p class="location">Delhi, India</p>
+    </header>
+
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <p>
+          I'm a Computer Science undergrad at IGDTUW, currently working as a
+          Machine Learning Research Intern on retrieval-augmented generation
+          systems, and previously trained as an Android App Development trainee.
+          I enjoy building things end-to-end — from IoT sensor pipelines to
+          Kotlin apps — and I'm always looking for the next hard problem to dig
+          into.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>8.51</strong>
+            <span>CGPA / 10</span>
+          </div>
+          <div class="stat">
+            <strong>2+</strong>
+            <span>Internships</span>
+          </div>
+          <div class="stat">
+            <strong>2</strong>
+            <span>Major Projects</span>
+          </div>
+          <div class="stat">
+            <strong>4</strong>
+            <span>Hackathon Wins/Podiums</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 class="title">Education<span>Academic Background</span></h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>B.Tech, Computer Science Engineering</h3>
+          <div class="meta">
+            Indira Gandhi Delhi Technical University for Women (IGDTUW) <br> Delhi,
+            India  <br> 2024 – 2028
+          </div>
+          <span class="score">CGPA: 8.51 / 10</span>
+        </div>
+        <div class="edu-card">
+          <h3>Senior Secondary (CBSE)</h3>
+          <div class="meta">
+            Queen Global International School <br> Delhi, India <br> 2021 – 2022
+          </div>
+          <span class="score">90.2%</span>
+        </div>
+        <div class="edu-card">
+          <h3>Secondary (CBSE)</h3>
+          <div class="meta">
+            St. Paul's Inter College Cantt <br> Shahjahanpur, Uttar Pradesh <br> 2019
+            – 2020
+          </div>
+          <span class="score">91.2%</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2 class="title">Experience<span>Where I've Worked</span></h2>
+      <div class="exp-timeline">
+        <div class="exp-item">
+          <h3>ACM Student Chapter, IGDTUW</h3>
+          <div class="role">Machine Learning Research Intern</div>
+          <div class="meta">June 2026 – Present · Remote</div>
+          <ul>
+            <li>
+              Developed a trust-aware sentence filtering pipeline for
+              Retrieval-Augmented Generation (RAG) to identify noisy and
+              contradictory evidence, improving retrieval accuracy and response
+              quality.
+            </li>
+            <li>
+              Implemented semantic relevance scoring using Sentence-BERT and
+              Cross-Encoder models to rank retrieved evidence by contextual
+              similarity and trustworthiness.
+            </li>
+            <li>
+              Built a multi-class noise classification framework categorizing
+              retrieved sentences as Relevant, Irrelevant, Contradictory, or
+              Factually Incorrect.
+            </li>
+            <li>
+              Validated the framework on PopQA, TriviaQA, Natural Questions, and
+              HotpotQA using Exact Match, F1 Score, and hallucination rate.
+            </li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h3>Internshala Trainings</h3>
+          <div class="role">Android App Development Trainee</div>
+          <div class="meta">June 2025 – July 2025 · Remote</div>
+          <ul>
+            <li>
+              Developed multiple Android applications using Kotlin, Jetpack
+              Compose, and Android Studio with modular, responsive UI
+              components.
+            </li>
+            <li>
+              Integrated Firebase Authentication and Cloud Firestore for secure
+              sign-in, real-time sync, and persistent cloud storage.
+            </li>
+            <li>
+              Applied OOP principles to build reusable components, improving
+              code maintainability and app structure.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="title">Projects<span>Things I've Built</span></h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Smart Fire Alarm System</h3>
+          <ul>
+            <li>
+              Built an IoT-based fire monitoring system using ESP32, integrating
+              3 environmental sensors across 8+ monitoring screens for real-time
+              hazard detection.
+            </li>
+            <li>
+              Integrated ThingSpeak and Supabase for live sensor visualization,
+              incident logging, role-based authentication, and secure remote
+              monitoring.
+            </li>
+          </ul>
+          <a
+            class="btn-link"
+            href="https://github.com/riya-singh758/FireProtect"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="card">
+          <h3>Campus Sync</h3>
+          <ul>
+            <li>
+              Built an Android app using Jetpack Compose and MVVM, integrating 4
+              core academic modules across 12+ screens to centralize schedules,
+              grades, notices, and profiles.
+            </li>
+            <li>
+              Integrated Firebase Authentication and Cloud Firestore for secure
+              login, persistent sessions, and real-time sync with reusable
+              modular UI components.
+            </li>
+          </ul>
+          <a
+            class="btn-link"
+            href="https://github.com/riya-singh758/Campus_Sync_IGDTUW"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="title">Skills<span>What I Work With</span></h2>
+
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skills">
+          <span>Java</span><span>Kotlin</span><span>Python</span><span>SQL</span
+          ><span>C</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>Core Concepts</h4>
+        <div class="skills">
+          <span>Data Structures & Algorithms</span><span>OOP</span
+          ><span>DBMS</span> <span>Operating Systems</span
+          ><span>Computer Networks</span><span>MVVM Architecture</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>Frameworks & Libraries</h4>
+        <div class="skills">
+          <span>Jetpack Compose</span><span>Scikit-learn</span><span>NumPy</span
+          ><span>Pandas</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>Cloud & Databases</h4>
+        <div class="skills">
+          <span>Firebase Auth</span><span>Cloud Firestore</span
+          ><span>Supabase</span><span>ThingSpeak</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h4>Developer Tools</h4>
+        <div class="skills">
+          <span>Git</span><span>GitHub</span><span>Android Studio</span
+          ><span>Figma</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2 class="title">Achievements<span>Recognition & Wins</span></h2>
+      <div class="achieve-grid">
+        <div class="achieve-card">
+          <p>
+            🏆 Top 40 Finalist among 700+ teams — Hackfluence Hackathon (2026)
+          </p>
+          <a
+            href="https://drive.google.com/file/d/13A7pQjmDESCk7Iij36KumkHppZ1UI0Ke/view?usp=sharing"
+            target="_blank"
+            >View Certificate →</a
+          >
+        </div>
+        <div class="achieve-card">
+          <p>
+            🥈 2nd Place among 65+ teams — IGDTUW AIoT Project Showcase (2026)
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1WvSPvizgC_XMeuD05KmjVCigsT_mdNk4/view?usp=sharing"
+            target="_blank"
+            >View Certificate →</a
+          >
+        </div>
+        <div class="achieve-card">
+          <p>
+            🥇 1st Place among 70+ teams — Mobile Application Development
+            Hackathon, IGDTUW (2025)
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1bkQHlVuHAmEnsUBV5N7QM4OuNzp8bzXE/view?usp=sharing"
+            target="_blank"
+            >View Certificate →</a
+          >
+        </div>
+        <div class="achieve-card">
+          <p>
+            🎯 Qualified for Round 2 among 990+ teams — Smart Delhi Ideathon
+            (2025)
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1VHxppDoCtDS5XIWgmK5OoYqTLzDRFIOP/view?usp=sharing"
+            target="_blank"
+            >View Certificate →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="title">Contact Me<span>Let's Connect</span></h2>
+      <div class="contact">
+        <div><b>Email</b><br />riya.sin4197@gmail.com</div>
+        <div><b>Phone</b><br />+91-7355094197</div>
+        <div><b>Location</b><br />Delhi, India</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="title">Social Links<span>Find Me Online</span></h2>
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/riya-singh-480206345/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/riya-singh758" target="_blank">GitHub</a>
+        <a href="https://leetcode.com/u/techie_riya/" target="_blank"
+          >LeetCode</a
+        >
+      </div>
+    </section>
+
+    <footer>❤️Thank you for visiting my portfolio❤️</footer>
+  </body>
+</html>
